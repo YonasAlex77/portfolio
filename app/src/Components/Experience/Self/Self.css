@@ -1,0 +1,63 @@
+/**
+    Very light Grey - #f2f2f2
+    Light Grey - #cccccc
+    Grey - #808080
+    Dark Grey 2 - #333333
+    Dark Grey - #1a1a1a
+*/
+
+.selfMain{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #808080;
+    color: white;
+}
+
+ .selfContainer{
+    display: flex;
+    justify-content: center;
+ }
+
+.chessBackground, .knightContainer{
+    margin: 0;
+    height: 60vh;
+}
+
+.chessBackground {
+    border: 3vmin solid #cccccc;
+    border-bottom: none;
+}
+
+.knightContainer{
+    position: absolute;
+    height: 15vh;  
+}
+
+.justJumpTag{
+    text-align: center;
+    margin-top: 65vh;
+}
+
+.internetAndBooks{
+    width: 100vw;
+    display: flex;   
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+   
+@media screen and (max-width: 800px) {
+    .chessBackground{
+        width: 50vmin;
+        height: 50vmin;
+    }
+
+    .justJumpTag{
+        margin-top: 55vh;
+    }
+
+    .internetAndBooks{
+        text-align:center;
+    }
+}

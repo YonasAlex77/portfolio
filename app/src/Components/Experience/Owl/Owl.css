@@ -1,0 +1,67 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.owlContainer{
+    margin: 0;
+
+    background-color: #36404C ;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wisdomTag{
+    width: 98%;
+    color: white;
+    text-align: left;
+    margin-left: 2%;
+
+}
+    .owlsImageContainer{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .flyingOwlImage{
+            height: auto;
+            width: 25%;
+
+            align-self: flex-start;
+        }
+            
+            .flyingImageAdjustment{
+                width: 100%;
+                height: 100%;
+            }
+
+        .standingOwlImage{
+            height: 50%;
+            width: auto;
+
+            align-self: center;
+        }
+
+
+@media screen and (min-width: 800px) {
+    .flyingOwlImage{
+        width: 25%;
+        height: 25%;
+    }
+    .standingOwlImage{
+        width: auto;
+        height: 25%;
+    }
+    .flyingImageAdjustment{
+        width: 50%;
+        height: auto;
+    }
+}
